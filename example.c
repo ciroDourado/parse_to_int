@@ -15,7 +15,7 @@ int main() {
         printf("\nYour number was: %d\n", parse_to_int(chars_before_numbers));
     } else {
         // this part should take care of reading again, or anything else
-        printf("\nTry to give a number!\n");
+        printf("\nTry to give a number next time!\n");
     }
     
     // using atoi in the case bellow actually converts your number
@@ -26,9 +26,9 @@ int main() {
         printf("\nYour number was: %d\n", parse_to_int(numbers_before_chars));
     } else {
         // this part should take care of reading again, or anything else
-        printf("\nTry to give a number!\n");
+        printf("\nTry to give a number next time!\n");
     }
-    printf("atoi's incredible convertion: %d\n", atoi(numbers_before_chars));
+    printf("atoi's INCREDIBLE convertion: %d\n", atoi(numbers_before_chars));
     printf("This shouldn't happen!!\n");
     
     // let's imagine you gave a string to atoi with no numbers;
@@ -41,9 +41,9 @@ int main() {
     if(parse_to_int_was_successful(only_chars)) {
         printf("\nYour number was: %d\n", parse_to_int(only_chars));
     } else {
-        printf("\nTry to give a number!\n");
+        printf("\nTry to give a number next time!\n");
     }
-    printf("atoi's incredible convertion: %d\n", atoi(only_chars));
+    printf("atoi's INCREDIBLE convertion: %d\n", atoi(only_chars));
     printf("This shouldn't happen!!\n");
     
     return 0;
