@@ -32,7 +32,7 @@ int main() {
     printf("This shouldn't happen!!\n");
     
     // let's imagine you gave a string to atoi with no numbers;
-    // it would return 0, but that's a problem, since it wasn't your
+    // it would return 0, but that's also a problem, since it wasn't your
     // intention to receive 0 from a invalid input; you should be
     // able to differentiate an real '0' input instead of an 
     // invalid convertion, in order to handle any possible errors
