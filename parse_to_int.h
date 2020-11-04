@@ -13,4 +13,4 @@
 #endif
 
 int parse_to_int(char*);
-int parse_to_int_was_successful(char*);
+int can_be_parsed(char*);
