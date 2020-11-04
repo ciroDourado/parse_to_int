@@ -10,7 +10,7 @@ int parse_to_int(char* string) {
     } // end NULL pointer handling
 }
 
-int parse_to_int_was_successful(char* string) {
+int can_be_parsed(char* string) {
     if(string == NULL) {
         printf("I can't even use this to parse!\n");
         return 0;
